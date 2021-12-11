@@ -12,28 +12,28 @@ exports.modules = {
     cdns: [
         {
             name: 'jsdelivr',
-            href: 'https://www.jsdelivr.com/package/npm/{{ package.name }}'
+            href: 'https://www.jsdelivr.com/package/npm/#error#'
         },
         {
             name: 'unpkg',
-            href: 'https://unpkg.com/{{ package.name }}'
+            href: 'https://unpkg.com/#error#'
         }
     ],
     badges: [
         {
             alt: 'CI status',
-            href: 'https://circleci.com/gh/{{ github.name }}/workflows/{{ github.name }}/tree/main',
-            src: 'https://img.shields.io/circleci/build/github/{{ github.name }}/{{ name }}/main.svg?logo=circleci&logoColor=fff&label=CircleCI'
+            href: 'https://circleci.com/gh/#error#/workflows/#error#/tree/main',
+            src: 'https://img.shields.io/circleci/build/github/#error#/[object Object]/main.svg?logo=circleci&logoColor=fff&label=CircleCI'
         },
         {
             alt: 'npm',
-            href: 'https://www.npmjs.com/{{ package.name }}',
-            src: 'https://img.shields.io/npm/v/{{ package.name }}.svg?logo=npm&logoColor=fff&label=NPM&color=limegreen'
+            href: 'https://www.npmjs.com/#error#',
+            src: 'https://img.shields.io/npm/v/#error#.svg?logo=npm&logoColor=fff&label=NPM&color=limegreen'
         },
         {
             alt: 'license',
-            href: 'https://circleci.com/gh/{{ github.name }}/workflows/{{ github.name }}/tree/main',
-            src: 'https://img.shields.io/github/license/{{ github.name }}/{{ name }}'
+            href: 'https://circleci.com/gh/#error#/workflows/#error#/tree/main',
+            src: 'https://img.shields.io/github/license/#error#/[object Object]'
         }
     ]
 }
